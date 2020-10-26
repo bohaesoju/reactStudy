@@ -1,34 +1,22 @@
 import * as React from 'react';
 
-const reducer = (state, action) => {
-  switch(action.type){
-    case 'INCREMENT':
-      return { value: state.value + 1 };
-    case 'DECREMENT':
-      return { value: state.value - 1 };
-    default:
-      return state;  
-  }
-}
-
-const INITIAL_STATE = { value: 0 }
+// const getAge = age => {
+//   console.log("getAge");
+//   return age;
+// };
 
 const UseMemo = () => {
-  const [state, dispatch] = React.useReducer(reducer, INITIAL_STATE)
+  const [age, setAge] = React.useState('');
 
-  const handleIncreaseButton = () => {
-    dispatch({ type: 'INCREMENT'})
+  const onChangeHandler = e => {
+    if (e.target.id === "age") setAge(e.target.value);
   };
-
-  const handleDecreaseButton = () => {
-    dispatch({ type: 'DECREMENT'})
-  };
-
+  
   return(
     <>
-      <p>현재 카운터의 값은 { state.value }</p>
-      <button onClick={handleIncreaseButton}>더하기</button>
-      <button onClick={handleDecreaseButton}>빼기</button>
+      <input id="age" value={age} onChange={onChangeHandler} />
+      <p>저의 나이는 { age } 살 입니다.</p>
+      
     </>
   )
 }
