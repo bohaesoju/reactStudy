@@ -4,12 +4,13 @@ const Count = () => {
   const [count, setCount] = React.useState(0);
 
   const handleCount = () => {
+    console.log('handleCount Execute');
     setCount(count+1);
   };
 
   return(
     <>
-      <div>{ count }</div>
+      <div onClick={() => setCount(count + 1)}>{ count }</div>
       <button onClick={ handleCount }>값증가</button>
     </>
   )
