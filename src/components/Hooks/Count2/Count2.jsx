@@ -4,6 +4,8 @@ const Count2 = () => {
   const [count, setCount] = React.useState(0);
 
   const handleCount = () => {
+    // setCount(count+1);
+    // setCount(count+1);
     setCount(prevState => prevState + 1);
     setCount(prevState => prevState + 1);
   };

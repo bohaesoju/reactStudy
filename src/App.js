@@ -6,9 +6,9 @@ import Props from './components/Props';
 
 function App() {
   return (
-    // <Hooks />
+    <Hooks />
     // <Event />
-    <Props />
+    // <Props />
   )
 }
 

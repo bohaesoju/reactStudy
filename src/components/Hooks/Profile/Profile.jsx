@@ -8,7 +8,8 @@ const Profile = () => {
     });
 
   const handleInputJob = (e) => {
-    setProfile({...profile, job: e.target.value})
+    // setProfile({...profile, job: e.target.value})
+    setProfile({job: e.target.value})
   };
 
   const handleInputLocation = (e) => {

@@ -4,7 +4,6 @@ const Count = () => {
   const [count, setCount] = React.useState(0);
 
   const handleCount = () => {
-    console.log('handleCount Execute');
     setCount(count+1);
   };
 
