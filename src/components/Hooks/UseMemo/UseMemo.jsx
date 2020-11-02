@@ -16,7 +16,6 @@ const UseMemo = () => {
     <>
       <input id="age" value={age} onChange={onChangeHandler} />
       <p>저의 나이는 { age } 살 입니다.</p>
-      
     </>
   )
 }

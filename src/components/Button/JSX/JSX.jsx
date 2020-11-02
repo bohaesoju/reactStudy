@@ -7,7 +7,10 @@ const JSX = () => {
     setLike(!like);
   }
   return (
-    <button onClick={ handleClick }>{ text }</button>
+    <>
+      <h1>JSX 컴포넌트</h1>
+      <button onClick={ handleClick }>{ text }</button>
+    </>
   )
 };
 
