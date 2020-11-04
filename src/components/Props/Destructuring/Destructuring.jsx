@@ -2,7 +2,6 @@ import React from 'react';
 
 const Destructuring = (props) => {
   const { jobName, children } = props;
-  console.log(props);
   return(
     <>
       <p>My Job is { jobName }</p>

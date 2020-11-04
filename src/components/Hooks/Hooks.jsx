@@ -13,8 +13,8 @@ const Hooks = () => {
 
   return(
     <>
-      {/* <Count />  */}
-      <Count2 />
+      <Count /> 
+      {/* <Count2 /> */}
       {/* <Profile /> */}
       {/* <Profile2 />
       <UseEffect />

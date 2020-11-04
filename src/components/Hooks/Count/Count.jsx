@@ -9,7 +9,8 @@ const Count = () => {
 
   return(
     <>
-      <div onClick={() => setCount(count + 1)}>{ count }</div>
+      {/* <div onClick={() => setCount(count + 1)}>{ count }</div> */}
+      <div>{ count }</div>
       <button onClick={ handleCount }>값증가</button>
     </>
   )

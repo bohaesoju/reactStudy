@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ToState = (props) => {
-  const { onChangeValue } = props;
+  const { onChangeValue, value } = props;
   
   const handleInputChange = (event) => {
     onChangeValue(event.target.value);
@@ -13,6 +13,7 @@ const ToState = (props) => {
         type="text" 
         onChange={ handleInputChange } 
       />
+      <p>{ value }</p>
     </>
   )
 }
