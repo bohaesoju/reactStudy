@@ -9,7 +9,7 @@ const JSX = () => {
   return (
     <>
       <h1>JSX 컴포넌트</h1>
-      <button onClick={ handleClick }>{ text }</button>
+      <button key={1} onClick={ handleClick }>{ text }</button>
     </>
   )
 };

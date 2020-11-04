@@ -12,9 +12,9 @@ function App() {
     // <Button />
     // <Hooks />
     // <Event />
-    // <Props />
+    <Props />
     // <Ref />
-    <Memo />
+    // <Memo />
   )
 }
 

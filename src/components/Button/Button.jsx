@@ -4,10 +4,10 @@ import JSX from './JSX';
 
 const Button = () => {
   console.log(<a key={ 'key1 '} style={{ width: 100 }} href="http://google.com">링크</a>);
-  console.log(<a key={ 'key2 '} style={{ width: 100 }} href="http://naver.com">링크2</a>);
+  console.log(<a key={ 'key1 '} style={{ width: 100 }} href="http://naver.com">링크2</a>);
   return(
     <>
-      <CreateElement />
+      {/* <CreateElement /> */}
       <JSX />
     </>
   )
