@@ -17,16 +17,16 @@ const Props = () => {
   return(
     <>
       {/* <Job jobName='Developer' /> */}
-      {/* <Children jobName='Developer'>개발자</Children> */}
+      <Children jobName='Developer'>개발자</Children>
       {/* <Children2>
         <Job2 />
       </Children2> */}
       {/* <Destructuring jobName='Developer'>개발자</Destructuring> */}
       {/* <Destructuring2 jobName='Developer'>개발자</Destructuring2> */}
-      <ToState 
+      {/* <ToState 
         onChangeValue={ handleOnChangeValue }
         value={ inputValue }
-      />
+      /> */}
     </>
   )
 }

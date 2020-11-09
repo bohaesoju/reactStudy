@@ -6,15 +6,19 @@ import Event from './components/Event';
 import Props from './components/Props';
 import Ref from './components/Ref';
 import Memo from './components/Memo';
+import Map from './components/Map';
+import UseEffect from './components/UseEffect';
 
 function App() {
   return (
     // <Button />
-    // <Hooks />
+    <Hooks />
     // <Event />
-    <Props />
+    // <Props />
     // <Ref />
     // <Memo />
+    // <Map />
+    // <UseEffect />
   )
 }
 
