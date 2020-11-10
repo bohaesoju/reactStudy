@@ -11,6 +11,7 @@ import UseReducer3 from './UseReducer3';
 import UseMemo from './UseMemo';
 import Fruit from './Fruit';
 import CustomHook from './CustomHook';
+import CountBatch from './CountBatch';
 
 const Hooks = () => {
 
@@ -27,7 +28,8 @@ const Hooks = () => {
       {/* <UseReducer3 /> */}
       {/* <UseMemo /> */}
       {/* <Fruit /> */}
-      <CustomHook />
+      {/* <CustomHook /> */}
+      <CountBatch />
     </> 
   )
 }
