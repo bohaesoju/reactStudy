@@ -19,7 +19,7 @@ const Hooks = () => {
     <>
       {/* <Count />  */}
       {/* <Count2 /> */}
-      {/* <Profile /> */}
+      <Profile />
       {/* <Profile2 /> */}
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
@@ -29,7 +29,7 @@ const Hooks = () => {
       {/* <UseMemo /> */}
       {/* <Fruit /> */}
       {/* <CustomHook /> */}
-      <CountBatch />
+      {/* <CountBatch /> */}
     </> 
   )
 }

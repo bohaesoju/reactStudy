@@ -32,8 +32,11 @@ const List6 = () => {
       <ul>
         { jobs.map((e, i) => (
           <li key={ i }>
-            { e.name } 
-            <button onClick={() => handleDelete(e.name)}> 삭제</button>
+            <ListText 
+              key={ i } 
+              name={ e.name } 
+              onDelete={ handleDelete } 
+            />
           </li>
         ))}
       </ul>

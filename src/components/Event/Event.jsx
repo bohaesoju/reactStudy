@@ -9,8 +9,8 @@ const Event = () => {
     <>
       {/* <Blur /> */}
       {/* <Counter /> */}
-      {/* <Input /> */}
-      <Input2 />
+      <Input />
+      {/* <Input2 /> */}
     </>
   )
 }

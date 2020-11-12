@@ -8,9 +8,9 @@ import Class2 from './Class2';
 const Class = () => {
   return(
     <>
-      {/* <Hooks1 /> */}
+      <Hooks1 />
       {/* <HooksRef /> */}
-      <HooksRef2 />
+      {/* <HooksRef2 /> */}
       {/* <Class1 /> */}
       {/* <Class2 /> */}
     </>

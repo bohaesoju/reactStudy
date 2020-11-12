@@ -16,8 +16,6 @@ class Class1 extends React.Component {
   render() {
     return (
       <>
-        <label>
-          <b>Choose profile to view: </b>
           <select
             value={this.state.user}
             onChange={e => this.setState({ user: e.target.value })}
@@ -26,12 +24,8 @@ class Class1 extends React.Component {
             <option value="JaRyong">JaRyong</option>
             <option value="SeYoung">SeYoung</option>
           </select>
-        </label>
         <p>
           <button onClick={this.handleClick}>팔로우</button>
-        </p>
-        <p>
-          Can you spot the difference in the behavior?
         </p>
       </>
     )

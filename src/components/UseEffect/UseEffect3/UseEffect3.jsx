@@ -3,6 +3,7 @@ import React from 'react';
 const UseEffect3 = () => {
   const [job, setJob] = React.useState('')
   const [location, setLocation] = React.useState('')
+  const [information, setInformation] = React.useState(0)
 
   const handleInput = (e) => {
     setJob(e.target.value)
@@ -12,20 +13,27 @@ const UseEffect3 = () => {
   }
 
   React.useEffect(() => {
-    console.log('Use Effect 부수 효과 렌더링 되었습니다.');
+    console.log('글자수 수정')
+    setInformation(job.length);
   }, [job])
 
   return(
     <>
+      <label htmlFor="job">잡</label>
       <input 
         type="text"
         onChange={ handleInput }
         value={ job }
+        id='job'
       />
+      <span>{ information }</span>
+      <br/>
+      <label htmlFor="location">지역</label>
       <input 
         type="text"
         onChange={ handleInput2 }
         value={ location }
+        id='location'
       />
     </>
   )

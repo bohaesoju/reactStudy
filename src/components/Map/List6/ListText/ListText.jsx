@@ -5,7 +5,6 @@ const ListText = (props) => {
   const handleButtonClick = () => {
     onDelete(name)
   };
-  console.log(props)
   return (
       <li>{ name } <button onClick={ handleButtonClick }>삭제</button></li>
   );

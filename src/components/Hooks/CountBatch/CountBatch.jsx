@@ -6,12 +6,15 @@ const CountBatch = () => {
   const [third, setThird] = React.useState(3);
   const [total, setTotal] = React.useState(0);
 
-  const handleCount = (prevState) => {
+  const handleCount = () => {
     console.log('handleCount 실행')
-    setFirst(prevState => prevState + 1);
-    setSecond(prevState => prevState + 1);
-    setThird(prevState => prevState + 1);
-    setTotal(first + second + third);
+    setFirst(first+1);
+    setSecond(second+1);
+    setTotal(first + second);
+    // setFirst(prevState => prevState + 1);
+    // setSecond(prevState => prevState + 1);
+    // setThird(prevState => prevState + 1);
+    // setTotal(first + second + third);
   };
 
   return(

@@ -1,6 +1,7 @@
 import React from 'react';
+import useOnMounted from '../../CustomHook/useOnMounted';
 
-const UseEffectApi = () => {
+const UseEffectApi2 = () => {
   const [data, setData] = React.useState([])
   const [name, setName] = React.useState('')
   const [inputValue, setInputValue] = React.useState(0)
@@ -16,17 +17,17 @@ const UseEffectApi = () => {
     setInputValue(Number(e.target.value))
   }
 
-  React.useEffect(() => {
-    console.log('fetchData')
-    fetchData();
-  }, [])
+  useOnMounted(() => fetchData());
+  // React.useEffect(() => {
+  //   console.log('fetchData')
+  //   fetchData();
+  // }, [])
 
   React.useEffect(() => {
-    console.log('useEffect')
     if(data.length > 0){
       setName(data[inputValue].name)
     }
-  })
+  }, [inputValue, data])
 
   return(
     <>
@@ -46,4 +47,4 @@ const UseEffectApi = () => {
   )
 }
 
-export default UseEffectApi;
+export default UseEffectApi2;

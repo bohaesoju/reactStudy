@@ -17,8 +17,8 @@ function App() {
     // <Props />
     // <Ref />
     // <Memo />
-    // <Map />
-    <UseEffect />
+    <Map />
+    // <UseEffect />
     // <Class />
   )
 }

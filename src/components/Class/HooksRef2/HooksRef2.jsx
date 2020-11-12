@@ -30,6 +30,8 @@ const HooksRef2 = () => {
           return <option value={ i }>{ e }</option>
         }) }
       </select>
+      <br/>
+      <br/>
       <button onClick={handleClick}>팔로우</button>
     </>
   );

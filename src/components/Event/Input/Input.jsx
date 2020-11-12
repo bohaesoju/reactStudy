@@ -5,6 +5,7 @@ const Input = () => {
   const [value2, setValue2] = React.useState('');
 
   const handleChange = (e) => {
+    console.log('e', e);
     setValue(e.target.value);
   };
 
@@ -15,14 +16,12 @@ const Input = () => {
   return(
     <>
       <input 
-        name="value"
         onChange={ handleChange }
         type="text"
         value={ value }
       />
 
       <input 
-        name="value2"
         onChange={ handleChange2 }
         type="text"
         value={ value2 }
