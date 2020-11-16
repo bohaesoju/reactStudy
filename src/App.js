@@ -8,6 +8,9 @@ import Memo from './components/Memo';
 import Map from './components/Map';
 import UseEffect from './components/UseEffect';
 import Class from './components/Class';
+import UserPage from './pages/UserPage';
+import UserPageMemo from './pages/UserPageMemo';
+import StyledComponents from './pages/StyledComponents';
 
 function App() {
   return (
@@ -17,9 +20,12 @@ function App() {
     // <Props />
     // <Ref />
     // <Memo />
-    <Map />
+    // <Map />
     // <UseEffect />
     // <Class />
+    // <UserPage />
+    // <UserPageMemo />
+    <StyledComponents />
   )
 }
 
