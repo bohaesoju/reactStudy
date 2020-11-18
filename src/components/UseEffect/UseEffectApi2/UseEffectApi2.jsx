@@ -24,20 +24,20 @@ const UseEffectApi2 = () => {
   // }, [])
 
   React.useEffect(() => {
-    if(data.length > 0){
-      setName(data[inputValue].name)
-    }
+    console.log('useEffect')
+    data.length > 0 && setName(data[inputValue].name)
   }, [inputValue, data])
 
   return(
     <>
       <h1>API 호출</h1>
+      <p>{ name }</p>
       <input 
         type="number"
         onChange={ handleChange }
         value={ inputValue }
       />
-      <span>{ name }</span>
+      
       <ul>
         { data.map((e) => {
           return <li key={ e.id }>{ e.name }</li>  
