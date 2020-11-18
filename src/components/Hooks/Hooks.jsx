@@ -23,9 +23,9 @@ const Hooks = () => {
       {/* <Profile2 /> */}
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
       {/* <UseReducer2 /> */}
-      {/* <UseReducer3 /> */}
+      <UseReducer3 />
       {/* <UseMemo /> */}
       {/* <Fruit /> */}
       {/* <CustomHook /> */}

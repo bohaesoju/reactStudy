@@ -32,11 +32,15 @@ const UseReducer2 = () => {
     <>
       <p>My Job is{ state.job }</p>
       <p>I'm live in { state.location }</p>
+      <span>Job: </span>
       <input 
         type="text"
         onChange={ handleInput('SETJOB') }
         value={state.job}
       />
+      <br/>
+      <br/>
+      <span>Location: </span>
       <input 
         type="text"
         onChange={ handleInput('SETLOCATION') }  

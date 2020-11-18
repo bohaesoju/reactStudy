@@ -18,13 +18,13 @@ import StyledComponents from './pages/StyledComponents';
 function App() {
   return (
     // <Button />
-    <Hooks />
+    // <Hooks />
     // <Event />
     // <Props />
     // <Ref />
     // <Memo />
     // <Map />
-    // <UseEffect />
+    <UseEffect />
     // <Class />
     // <UserPage />
     // <MainPage />

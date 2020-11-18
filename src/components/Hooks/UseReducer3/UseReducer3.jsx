@@ -25,6 +25,7 @@ const UseReducer3 = () => {
       <p>My Job is{ job }</p>
       <p>I'm live in { location }</p>
       <p>Graduate { degree }</p>
+      <span>Job: </span>
       <input 
         type="text"
         name={'job'}
@@ -32,6 +33,8 @@ const UseReducer3 = () => {
         value={job}
       />
       <br/>
+      <br/>
+      <span>Location: </span>
       <input 
         type="text"
         name={'location'}
@@ -39,6 +42,8 @@ const UseReducer3 = () => {
         value={location}
       />
       <br/>
+      <br/>
+      <span>Degree: </span>
       <input 
         type="text"
         name={'degree'}
