@@ -7,7 +7,7 @@ const StyledComponents = () => {
       {/* <Title /> */}
       {/* <Title color="red" /> */}
       <Title type="mobile" />
-      <Title type="pc" />
+      {/* <Title type="pc" /> */}
     </>
   )
 }

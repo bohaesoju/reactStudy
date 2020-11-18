@@ -9,21 +9,27 @@ import Map from './components/Map';
 import UseEffect from './components/UseEffect';
 import Class from './components/Class';
 import UserPage from './pages/UserPage';
+import MainPage from './pages/MainPage';
+import MainPage2 from './pages/MainPage2';
+import MainPage3 from './pages/MainPage3';
 import UserPageMemo from './pages/UserPageMemo';
 import StyledComponents from './pages/StyledComponents';
 
 function App() {
   return (
     // <Button />
-    // <Hooks />
+    <Hooks />
     // <Event />
     // <Props />
     // <Ref />
     // <Memo />
     // <Map />
-    <UseEffect />
+    // <UseEffect />
     // <Class />
     // <UserPage />
+    // <MainPage />
+    // <MainPage2 />
+    // <MainPage3 />
     // <UserPageMemo />
     // <StyledComponents />
   )

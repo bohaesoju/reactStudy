@@ -19,11 +19,11 @@ const Hooks = () => {
     <>
       {/* <Count />  */}
       {/* <Count2 /> */}
-      <Profile />
+      {/* <Profile /> */}
       {/* <Profile2 /> */}
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
-      {/* <UseReducer /> */}
+      <UseReducer />
       {/* <UseReducer2 /> */}
       {/* <UseReducer3 /> */}
       {/* <UseMemo /> */}

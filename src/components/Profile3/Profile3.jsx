@@ -1,15 +1,15 @@
 import React from 'react';
-import Greeting from '../Greeting';
+import Greeting3 from '../Greeting3';
 
-const Profile = () => {
+const Profile3 = () => {
   console.log('rendering!! Profile Component');
 
   return (
     <>
       <h2>프로파일 컴포넌트</h2>
-      <Greeting />
+      <Greeting3 />
     </>
   );
 };
 
-export default Profile;
+export default Profile3;

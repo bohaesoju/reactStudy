@@ -9,7 +9,7 @@ const UserPage = () => {
     <p>유저 페이지</p>
     <UserContextProvider>
       <UserA />
-      <UserB />
+      {/* <UserB /> */}
     </UserContextProvider>
     </>
   )
