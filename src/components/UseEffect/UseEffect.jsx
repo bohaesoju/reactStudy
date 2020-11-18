@@ -11,6 +11,7 @@ import UseEffectCleanUp from './UseEffectCleanUp';
 import Counter from './Counter';
 import Greeting from './Greeting';
 import GreetingDeps from './GreetingDeps';
+import SetInterval from './SetInterval';
 
 const UseEffect = () => {
   return (
@@ -20,13 +21,14 @@ const UseEffect = () => {
       {/* <UseEffect3 />  */}
       {/* <UseEffect4 />  */}
       {/* <UseEffect5 />  */}
-      {/* <UseEffectApi />  */}
+      <UseEffectApi /> 
       {/* <UseEffectApi2 />  */}
       {/* <UseEffectOnlyApi />  */}
       {/* <UseEffectCleanUp />  */}
       {/* <Counter />  */}
       {/* <Greeting />  */}
-      <GreetingDeps /> 
+      {/* <GreetingDeps />  */}
+      {/* <SetInterval />  */}
     </div>
   );
 };
