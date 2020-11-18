@@ -4,13 +4,6 @@ const UseEffectApi = () => {
   const [data, setData] = React.useState([])
   const [name, setName] = React.useState('')
   const [inputValue, setInputValue] = React.useState(0)
-
-  const fetchData = () => {
-    console.log('execute fetchdata')
-    fetch('https://jsonplaceholder.typicode.com/users', {})
-    .then(res => res.json())
-    .then(res => { setData(res)});
-  }
   
   const handleChange = (e) => {
     setInputValue(Number(e.target.value))
@@ -18,7 +11,9 @@ const UseEffectApi = () => {
 
   React.useEffect(() => {
     console.log('fetchData')
-    fetchData();
+    fetch('https://jsonplaceholder.typicode.com/users', {})
+    .then(res => res.json())
+    .then(res => { setData(res)});
   }, [])
 
   React.useEffect(() => {

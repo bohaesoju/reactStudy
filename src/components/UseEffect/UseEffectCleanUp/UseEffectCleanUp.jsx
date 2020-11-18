@@ -8,8 +8,10 @@ const UseEffectCleanUp = () => {
   }
 
   React.useEffect(() => {
+    console.log('useEffect')
     const id = setInterval(() => console.log(value), 1000);
     return () => {
+      console.log('clearInterval')
       clearInterval(id)
     };
   }, [value])

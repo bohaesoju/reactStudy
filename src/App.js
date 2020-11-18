@@ -21,11 +21,11 @@ function App() {
     // <Ref />
     // <Memo />
     // <Map />
-    // <UseEffect />
+    <UseEffect />
     // <Class />
     // <UserPage />
     // <UserPageMemo />
-    <StyledComponents />
+    // <StyledComponents />
   )
 }
 
