@@ -1,27 +1,34 @@
 import React, { useState, useCallback, useMemo } from 'react';
 
 const getAverage = numbers => {
-  console.log('평균값 계산중 ...');
+  console.log('getAverage Function');
   if(numbers.length === 0) return 0;
   const sum = numbers.reduce((a,b) => a + b);
   return sum / numbers.length;
 }
 
-const UseCallbackContainer1 = () => {
+const UseMemoContainer2 = () => {
   const [list, setList] = useState([]);
   const [number, setNumber] = useState('');
+  const [average, setAverage] = useState(0);
 
-  const handleChange = useCallback((e) => {
+  const handleChange = (e) => {
     setNumber(e.target.value);
-  }, []);  //컴포넌트가 처음 렌더링 될 때만 함수 생성
+  };
   
-  const handleClick = useCallback(() => {
+  const handleClick = () => {
     const nextList = list.concat(parseInt(number));
     setList(nextList);
     setNumber('');
-  }, [number, list]);    // number 혹은 list 가 바뀌었을때만 함수 생성
+  };
 
-  const average = useMemo(() => getAverage(list), [list]);
+  const handleClick2 = () => {
+    setAverage(getAverage(list));
+  };
+
+
+  // const average = () => getAverage(list);
+  // const average = useMemo(() => getAverage(list), [list]);
 
   return (
     <>
@@ -33,11 +40,12 @@ const UseCallbackContainer1 = () => {
             <li key={index}>{ value }</li>
           ))}
         </ul>
-        <b>평균값: </b>{average}
+        <button onClick={ handleClick2 }>계산</button>
+        <b>평균값: {average}</b>
       </div>
     </>
 
   )
 };
 
-export default UseCallbackContainer1;
+export default UseMemoContainer2;
