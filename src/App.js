@@ -12,6 +12,7 @@ import UserPage from './pages/UserPage';
 import MainPage from './pages/MainPage';
 import MainPage2 from './pages/MainPage2';
 import MainPage3 from './pages/MainPage3';
+import CustomHookPage from './pages/CustomHookPage';
 import UserPageMemo from './pages/UserPageMemo';
 import StyledComponents from './pages/StyledComponents';
 
@@ -24,12 +25,13 @@ function App() {
     // <Ref />
     // <Memo />
     // <Map />
-    <UseEffect />
+    // <UseEffect />
     // <Class />
     // <UserPage />
     // <MainPage />
     // <MainPage2 />
     // <MainPage3 />
+    <CustomHookPage />
     // <UserPageMemo />
     // <StyledComponents />
   )

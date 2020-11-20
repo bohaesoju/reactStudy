@@ -3,7 +3,7 @@ import React from 'react';
 const Info = (props) => {
   const { name } = props;
   
-  const [count, setCount] = React.useState(0)
+  const [count, setCount] = React.useState(0);
 
   const handleClick = () => {
     setCount(count + 1);

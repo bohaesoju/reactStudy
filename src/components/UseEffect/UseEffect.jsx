@@ -16,13 +16,13 @@ import SetInterval from './SetInterval';
 const UseEffect = () => {
   return (
     <div>
-      <UseEffect1 /> 
+      {/* <UseEffect1 />  */}
       {/* <UseEffect2 />  */}
       {/* <UseEffect3 />  */}
       {/* <UseEffect4 />  */}
       {/* <UseEffect5 />  */}
       {/* <UseEffectApi />  */}
-      {/* <UseEffectApi2 />  */}
+      <UseEffectApi2 /> 
       {/* <UseEffectOnlyApi />  */}
       {/* <UseEffectCleanUp />  */}
       {/* <Counter />  */}
