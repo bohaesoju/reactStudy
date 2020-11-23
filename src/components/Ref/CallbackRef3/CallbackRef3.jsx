@@ -2,7 +2,7 @@ import React from 'react';
 
 const INITIAL_JOB = 'Developer';
 
-const CallbackRef2 = () => {
+const CallbackRef3 = () => {
   const [job, setJob] = React.useState(INITIAL_JOB)
   const [toggleJob, setToggleJob] = React.useState(true)
 
@@ -19,7 +19,6 @@ const CallbackRef2 = () => {
     ref && setJob(INITIAL_JOB)
   }
 
-  // const setInitalJob = handleRef;
   const setInitalJob = React.useCallback(handleRef, []);
 
   return(
@@ -36,4 +35,4 @@ const CallbackRef2 = () => {
   )
 }
 
-export default CallbackRef2;
+export default CallbackRef3;
