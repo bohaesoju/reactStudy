@@ -18,10 +18,10 @@ const UseEffectApi2 = () => {
   }
 
   useOnMounted(() => fetchData());
-  // React.useEffect(() => {
-  //   console.log('fetchData')
-  //   fetchData();
-  // }, [])
+  React.useEffect(() => {
+    console.log('fetchData')
+    fetchData();
+  }, [])
 
   React.useEffect(() => {
     console.log('useEffect')

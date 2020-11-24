@@ -5,7 +5,6 @@ import UseRef3 from './UseRef3';
 import CallbackRef from './CallbackRef';
 import CallbackRef2 from './CallbackRef2';
 import ForwardRef from './ForwardRef';
-import UseImperativeHandle from './UseImperativeHandle';
 import UseImperativeHandle2 from './UseImperativeHandle2';
 
 const Ref = () => {
@@ -35,7 +34,6 @@ const Ref = () => {
       {/* <CallbackRef /> */}
       {/* <CallbackRef2 /> */}
       {/* <ForwardRef ref={inputRef} /> */}
-      {/* <UseImperativeHandle ref={ jobRef } /> */}
       {/* <button onClick={handleButtonClick}>버튼</button> */}
       <UseImperativeHandle2 ref={ inputRef } />
       <button onClick={handleButtonOnClick}>클릭</button>

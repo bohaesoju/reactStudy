@@ -33,9 +33,9 @@ function App() {
     // <MainPage />
     // <MainPage2 />
     // <MainPage3 />
-    // <CustomHookPage />
+    <CustomHookPage />
     // <UseCallbackPage />
-    <UseRefPage />
+    // <UseRefPage />
     // <UserPageMemo />
     // <StyledComponents />
   )
