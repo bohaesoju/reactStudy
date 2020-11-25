@@ -14,10 +14,7 @@ const CustomHookContainer2 = () => {
         <button disabled={!isAllChecked}>다음</button>
       </p>
     </>
-
   )
-
-  
 };
 
 export default CustomHookContainer2;

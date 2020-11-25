@@ -23,8 +23,8 @@ const UseMemoContainer3 = () => {
     return stringSum;
   }
 
-  // const result = sum(stringList);
-  const result = useMemo(() => sum(stringList), [stringList]);
+  // const result = useMemo(() => sum(stringList), [stringList]);
+  const result = useMemo(() => sum(stringList), []);
 
   return (
     <>

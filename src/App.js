@@ -13,6 +13,7 @@ import MainPage from './pages/MainPage';
 import MainPage2 from './pages/MainPage2';
 import MainPage3 from './pages/MainPage3';
 import CustomHookPage from './pages/CustomHookPage';
+import MemoPage from './pages/MemoPage';
 import UseCallbackPage from './pages/UseCallbackPage';
 import UseRefPage from './pages/UseRefPage';
 import UserPageMemo from './pages/UserPageMemo';
@@ -33,7 +34,8 @@ function App() {
     // <MainPage />
     // <MainPage2 />
     // <MainPage3 />
-    <CustomHookPage />
+    // <CustomHookPage />
+    <MemoPage />
     // <UseCallbackPage />
     // <UseRefPage />
     // <UserPageMemo />

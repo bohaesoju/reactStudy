@@ -14,12 +14,12 @@ const getNumber = () => {
 const UseCallbackContainer1 = () => {
   const [number, setNumber] = useState('0');
 
-  const lottoNumber = getNumber();
-  // const lottoNumber = useMemo(() => getNumber(), []);
+  // const lottoNumber = getNumber();
+  const lottoNumber = useMemo(() => getNumber(), []);
 
   const handleChange = (e) => {
     setNumber(e.target.value);
-  };  
+  };
 
   return (
     <>
