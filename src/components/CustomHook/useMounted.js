@@ -6,7 +6,6 @@ const useMounted = () => {
     setTimeout(() => {
       setMounted(true);
     }, 1000);
-    // setMounted(true);
   }, [])
   return mounted;
 }

@@ -16,10 +16,10 @@ const CustomHookPage = () => {
     // <CustomHookContainer3 />
     // <CustomHookContainer4 />
     // <CustomHookContainer5 />
-    // <CustomHookContainer6 />
+    <CustomHookContainer6 />
     // <CustomHookContainer7 />
     // <CustomHookContainer8 />
-    <CustomHookContainer9 />
+    // <CustomHookContainer9 />
   )
 }
 

@@ -12,12 +12,12 @@ const UseCallbackPage = () => {
   return (
     // <UseCallbackContainer1 />
     // <UseCallbackContainer2 />
-    <UseCallbackContainer3 />
+    // <UseCallbackContainer3 />
     // <UseCallbackContainer4 />
     // <UseCallbackContainer5 />
     // <UseMemoContainer1 />
     // <UseMemoContainer2 />
-    // <UseMemoContainer3 />
+    <UseMemoContainer3 />
   )
 }
 

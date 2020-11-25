@@ -2,7 +2,7 @@ import React from 'react';
 
 const Input2 = (props) => {
   const { count, onClick } = props;
-  console.log('Input Component Loaded');
+  console.log('Count 증가 +++');
 
   const handleClick = () => {
     onClick()

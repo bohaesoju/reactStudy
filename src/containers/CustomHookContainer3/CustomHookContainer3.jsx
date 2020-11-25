@@ -7,7 +7,6 @@ const CustomHookContainer3 = () => {
     setTimeout(() => {
       setMounted(true);
     }, 1000);
-    // setMounted(true);
   }, []);
   
   return (

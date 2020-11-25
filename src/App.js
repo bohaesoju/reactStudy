@@ -16,7 +16,6 @@ import CustomHookPage from './pages/CustomHookPage';
 import MemoPage from './pages/MemoPage';
 import UseCallbackPage from './pages/UseCallbackPage';
 import UseRefPage from './pages/UseRefPage';
-import UserPageMemo from './pages/UserPageMemo';
 import StyledComponents from './pages/StyledComponents';
 
 function App() {
@@ -35,9 +34,9 @@ function App() {
     // <MainPage2 />
     // <MainPage3 />
     // <CustomHookPage />
-    // <MemoPage />
+    <MemoPage />
     // <UseCallbackPage />
-    <UseRefPage />
+    // <UseRefPage />
     // <UserPageMemo />
     // <StyledComponents />
   )
