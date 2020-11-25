@@ -6,7 +6,6 @@ const UseRef2 = () => {
   const handleButtonClick = () => {
     inputRef.current.value='';
     inputRef.current.focus();
-    console.log('inputRef', inputRef);
   };
   
   return(
